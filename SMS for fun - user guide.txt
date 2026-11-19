@@ -1,0 +1,147 @@
+﻿==============================================================
+  SMS FOR FUN - USER GUIDE
+==============================================================
+
+With this app, you send text messages from one radio to
+another, like SMS, without any phone network.
+
+Radios: Quansheng UV-K1 and UV-K5 V3
+Firmware: F4HWN Fusion v7.0.0
+
+
+--------------------------------------------------------------
+1. INSTALL THE APP
+--------------------------------------------------------------
+
+ 1) Connect the radio to the computer and open UV Studio
+    (armel.github.io/uvstudio) in Chrome or Edge.
+ 2) Open the Apps tab, then "Install a local app".
+    Choose the file SMSforfun.app and confirm.
+ 3) Install the app on ALL the radios that will talk to each
+    other, in the SAME version.
+
+ Tip: for your callsign to show up on your contacts' radios,
+ write it in line 1 of the radio's power-on message.
+
+
+--------------------------------------------------------------
+2. START THE APP
+--------------------------------------------------------------
+
+ On the radio, press F then 7, choose SMS for fun, then
+ press MENU.
+
+
+--------------------------------------------------------------
+3. CHOOSE THE FREQUENCY (first launch)
+--------------------------------------------------------------
+
+ The app asks for a frequency in MHz:
+
+   Digits ........... type the frequency
+   *  ............... the decimal point
+   F  ............... deletes a digit
+   MENU ............. confirms
+
+   Example: 4 3 3 * 5  gives 433.5 MHz
+
+ The frequency is remembered for next time.
+ To change it later: hold * for one second.
+ All contacts must be on the SAME frequency.
+
+
+--------------------------------------------------------------
+4. WRITE A MESSAGE
+--------------------------------------------------------------
+
+ Letters are typed like on an old phone: press the same key
+ several times.
+
+   2 to 9 ........... letters (2 = A B C, 3 = D E F...),
+                      then the digit
+   1  ............... punctuation  . , ' ? ! -  then 1
+   0  ............... space (then 0)
+   *  (short press) . capitals ABC → lowercase abc
+                      → digits 123
+   F  ............... deletes the last letter
+
+ For two letters in a row on the same key, wait one second
+ between them.
+ A message can be up to 72 characters (about 4 lines).
+
+
+--------------------------------------------------------------
+5. SEND
+--------------------------------------------------------------
+
+   PTT (short press) or MENU ... sends the message
+   PTT (long press) ............ brings back the last message
+                                 sent, to send it again
+
+ The app checks by itself that the message arrived.
+ At the top of the screen (the radio shows these in French):
+
+   ATT 1/3 ............ sending, the app waits for the answer
+   RECU + high beep ... your contact received it
+   ECHEC + low beep ... no answer after 3 tries: the message
+                        is marked NON RECU (not received)
+
+
+--------------------------------------------------------------
+6. READ MESSAGES
+--------------------------------------------------------------
+
+ - Your messages are ON THE LEFT, followed by OK or NON RECU.
+ - Received messages are ON THE RIGHT, preceded by the
+   sender's callsign. A beep announces each new message.
+ - The page number shows at the top right (e.g. 2/4).
+   Page 1 holds the oldest messages.
+
+   Left arrow (up on UV-K5 V3) ...... older messages
+   Right arrow (down on UV-K5 V3) ... newer messages
+
+ The two lines at the bottom of the screen remind you of the
+ main keys.
+
+
+--------------------------------------------------------------
+7. QUIT
+--------------------------------------------------------------
+
+ Press EXIT. The message history is cleared, but the
+ frequency stays remembered.
+
+
+--------------------------------------------------------------
+TROUBLESHOOTING
+--------------------------------------------------------------
+
+ BANDE? (band?)
+   The frequency is outside the radio's ranges
+   (18-630 MHz and 840-1300 MHz).
+
+ BLOQUE (blocked)
+   Set the radio to FM, check the battery and the transmit
+   lock.
+
+ Messages don't get through
+   Check that the radios are on the same frequency, in
+   FM narrow, with the same version of the app.
+
+ Often NON RECU
+   Your contact is too far away: move closer or use a better
+   antenna.
+
+ The arrows go the wrong way
+   Set the radio model in hidden menu 76 (SetNav).
+
+
+--------------------------------------------------------------
+WARNING
+--------------------------------------------------------------
+
+ Transmitting requires authorization. Use the amateur radio
+ bands with your licence (in France: 144-146 MHz and
+ 430-440 MHz). The UV-K1 is not PMR446 approved.
+
+==============================================================

@@ -1,0 +1,148 @@
+﻿==============================================================
+  SMS FOR FUN - NOTICE D'UTILISATION
+==============================================================
+
+Avec cette app, vous envoyez des messages texte d'une radio à
+l'autre, comme des SMS, sans réseau téléphonique.
+
+Radios : Quansheng UV-K1 et UV-K5 V3
+Firmware : F4HWN Fusion v7.0.0
+
+
+--------------------------------------------------------------
+1. INSTALLER L'APP
+--------------------------------------------------------------
+
+ 1) Branchez la radio à l'ordinateur et ouvrez UV Studio
+    (armel.github.io/uvstudio) dans Chrome ou Edge.
+ 2) Ouvrez l'onglet Apps, puis "Install a local app".
+    Choisissez le fichier SMSforfun.app et validez.
+ 3) Installez l'app sur TOUTES les radios qui doivent
+    discuter ensemble, dans la MÊME version.
+
+ Astuce : pour que votre indicatif s'affiche chez vos
+ correspondants, écrivez-le dans la ligne 1 du message de
+ démarrage de la radio.
+
+
+--------------------------------------------------------------
+2. LANCER L'APP
+--------------------------------------------------------------
+
+ Sur la radio, appuyez sur F puis 7, choisissez SMS for fun,
+ puis appuyez sur MENU.
+
+
+--------------------------------------------------------------
+3. CHOISIR LA FRÉQUENCE (premier lancement)
+--------------------------------------------------------------
+
+ L'app vous demande une fréquence en MHz :
+
+   Chiffres ......... tapez la fréquence
+   *  ............... la virgule
+   F  ............... efface un chiffre
+   MENU ............. valide
+
+   Exemple : 4 3 3 * 5  donne 433,5 MHz
+
+ La fréquence est mémorisée pour les fois suivantes.
+ Pour la changer plus tard : gardez * appuye une seconde.
+ Tous les correspondants doivent être sur la MÊME fréquence.
+
+
+--------------------------------------------------------------
+4. ÉCRIRE UN MESSAGE
+--------------------------------------------------------------
+
+ Les lettres s'écrivent comme sur un ancien téléphone : on
+ appuie plusieurs fois sur la même touche.
+
+   2 à 9 ............ lettres (2 = A B C, 3 = D E F...),
+                      puis le chiffre
+   1  ............... ponctuation  . , ' ? ! -  puis 1
+   0  ............... espace (puis 0)
+   *  (appui court) . majuscules ABC → minuscules abc
+                      → chiffres 123
+   F  ............... efface la dernière lettre
+
+ Pour deux lettres de suite sur la même touche, attendez une
+ seconde entre les deux.
+ Un message peut faire jusqu'à 72 caractères (environ 4 lignes).
+
+
+--------------------------------------------------------------
+5. ENVOYER
+--------------------------------------------------------------
+
+   PTT (appui court) ou MENU ... envoie le message
+   PTT (appui long) ............ remet le dernier message
+                                 envoyé, pour le renvoyer
+
+ L'app vérifie toute seule que le message est arrivé.
+ En haut de l'écran :
+
+   ATT 1/3 ............ envoi en cours, l'app attend la réponse
+   RECU + bip aigu .... le correspondant a bien reçu
+   ECHEC + bip grave .. pas de réponse après 3 essais : le
+                        message est marqué NON RECU
+
+
+--------------------------------------------------------------
+6. LIRE LES MESSAGES
+--------------------------------------------------------------
+
+ - Vos messages sont À GAUCHE, suivis de OK ou NON RECU.
+ - Les messages reçus sont À DROITE, précédés de l'indicatif
+   de l'expéditeur. Un bip annonce chaque nouveau message.
+ - Le numéro de page s'affiche en haut à droite (ex. 2/4).
+   La page 1 contient les messages les plus anciens.
+
+   Flèche gauche (haut sur UV-K5 V3) ... messages plus anciens
+   Flèche droite (bas sur UV-K5 V3) .... messages plus récents
+
+ Les deux lignes en bas de l'écran rappellent les touches
+ principales.
+
+
+--------------------------------------------------------------
+7. QUITTER
+--------------------------------------------------------------
+
+ Appuyez sur EXIT. L'historique des messages est effacé, mais
+ la fréquence reste mémorisée.
+
+
+--------------------------------------------------------------
+EN CAS DE SOUCI
+--------------------------------------------------------------
+
+ BANDE?
+   La fréquence est hors des plages de la radio
+   (18-630 MHz et 840-1300 MHz).
+
+ BLOQUE
+   Mettez la radio en FM, vérifiez la batterie et le
+   verrouillage d'émission.
+
+ Les messages ne passent pas
+   Vérifiez que les radios sont sur la même fréquence, en
+   FM narrow, avec la même version de l'app.
+
+ Souvent NON RECU
+   Le correspondant est trop loin : rapprochez-vous ou
+   utilisez une meilleure antenne.
+
+ Les flèches vont dans le mauvais sens
+   Réglez le modèle de radio dans le menu caché 76 (SetNav).
+
+
+--------------------------------------------------------------
+ATTENTION
+--------------------------------------------------------------
+
+ Émettre demande une autorisation. Utilisez les bandes
+ radioamateur avec votre licence (en France : 144-146 MHz et
+ 430-440 MHz). L'UV-K1 n'est pas homologué PMR446.
+
+==============================================================
